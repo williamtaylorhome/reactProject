@@ -1,0 +1,35 @@
+
+module.exports = {
+  data: {
+    id: 1,
+    username: 'admin',
+    password: '121212',
+    chineseName: 'administrator',
+    idcardNo: '000000000000000000',
+    policeCode: '000000',
+    deptCode: '370200000000',
+    gender: 1,
+    email: 'abc@abc.com',
+    phoneNo: '15100000005',
+    duty: 'super administrator',
+    address: 'address',
+    remark: 'remarl',
+    type: 0,
+    status: 0,
+    roles: [
+      {
+        id: 1,
+        roleName: 'super administrator',
+        resources: [],
+      },
+    ],
+    deptName: 'Hangzhou City',
+    ticket: '.2XxGlEuidOmAoYIdSo6pQIlGbQSh83U7p4eJsoTO-70',
+    gxdwdm: '370200000000',
+    deptLevel: '1',
+    defaultDeptCode: '370200000000',
+    defaultXzqhCode: '370200',
+  },
+  msg: 'Successful operation',
+  status: 1,
+}
